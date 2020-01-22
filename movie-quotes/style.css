@@ -1,0 +1,29 @@
+body{
+  margin-left: 5%;
+  background-color: #4D4848;
+  color: whitesmoke;
+}
+h1{
+  display: inline-block;
+  font-style: italic;
+  color: #DDE68C;
+}
+header p{
+  display: inline-block;
+}
+
+h2{
+  font-size: 20px;
+}
+
+.char{
+  font-weight: bold;
+  color: #BDBFAB;
+}
+.quote{
+  color: lightgrey;
+}
+.setting{
+  font-style: italic;
+  font-size: 14px;
+}

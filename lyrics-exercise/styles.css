@@ -13,7 +13,7 @@ body{
 h1{
   margin-left: 40px;
   font-family: "Optima", sans-serif;
-  display: inline-block;
+  /* display: inline-block; */
   color: silver;
 }
 .artist{

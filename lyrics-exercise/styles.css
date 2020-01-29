@@ -1,0 +1,46 @@
+body{
+  background-color: #494950;
+  color: whitesmoke;
+  width: 100%;
+}
+.whole{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+h1{
+  margin-left: 40px;
+  font-family: "Optima", sans-serif;
+  display: inline-block;
+  color: silver;
+}
+.artist{
+  color: #282D28;
+}
+
+img{
+  width: 400px;
+  margin-left: 130px;
+  box-shadow: 8px 8px 5px dimgrey;
+}
+
+.note{
+  font-weight: bold;
+  margin-left: 40px;
+  color: Gainsboro;
+}
+
+.container{
+  border: 1px solid Gainsboro;
+  width: 600px;
+  margin-bottom:100px;
+  margin-left: 40px;
+
+}
+.lyrics{
+  padding: 30px;
+  line-height: 150%;
+  font-family: "Optima", sans-serif;
+}

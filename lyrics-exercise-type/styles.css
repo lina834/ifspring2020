@@ -1,0 +1,68 @@
+body{
+  /* background-color: #494950; */
+  color: whitesmoke;
+  width: 100%;
+  background-image: url("img2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: 100%;
+}
+.whole{
+  display: block;
+  /* margin-left: 25%;
+  margin-right: 25%; */
+  margin: auto;
+  width: 50%;
+}
+
+h1{
+  /* margin-left: 40px; */
+  font-family: 'Fredericka the Great', cursive;
+  /* display: inline-block; */
+  color: silver;
+}
+.artist{
+  color: #282D28;
+}
+
+.img-container{
+  text-align: center;
+  margin: 0 auto;
+}
+
+img{
+  width: 400px;
+  box-shadow: 8px 8px 5px dimgrey;
+}
+
+.note{
+  font-weight: bold;
+  margin-left: auto;
+  color: Gainsboro;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: 700;
+
+}
+
+.container{
+  border: 1px solid Gainsboro;
+  width: 100%;
+  margin-bottom:100px;
+}
+.lyrics{
+  padding: 30px;
+  line-height: 150%;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  color: #A9A9A9;
+}
+
+.dsc{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-style: italic;
+  font-weight: 300;
+  color: #808080;
+}
+
+.chorus{
+  color: #DCDCDC;
+}

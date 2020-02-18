@@ -1,0 +1,157 @@
+body {
+  font-family: 'Archivo Narrow', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 80px;
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 30px;
+  margin-top: -3px;
+}
+
+header {
+  /* background-color: rgba(255,0,0,0.2); */
+  height: 480px;
+  text-align: center;
+  padding-top: 152px;
+  box-sizing: border-box;
+  background-image: url("../img/headerimg.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+  color: RGB(0, 0, 0, 0.7);
+}
+
+#sec1 {
+  background-color: whiteSmoke;
+  height: 715px;
+}
+
+img.balloon {
+  width: 400px;
+  height: 300px;
+  float: right;
+  margin: 0 0 25px 25px;
+}
+
+.div1{
+  width: 960px;
+  height: 715px;
+  margin: auto;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+.div1 p {
+  margin-top: -8px;
+  font-size: 19px;
+  /* letter-spacing: -0.02rem; */
+  line-height: 125%;
+  color: dimgray;
+}
+.div1 br{
+  display: block;
+  content: "";
+  margin: 15px 0;
+}
+
+#sec2 {
+  background-color: silver;
+  color: whiteSmoke;
+  height: 688px;
+}
+.div2{
+  width: 960px;
+  height: 688px;
+  margin: auto;
+  padding-top: 40px;
+  box-sizing: border-box;
+}
+ul.boxes{
+  margin-top: -10px;
+  padding-left:0;
+}
+ul.boxes div.img{
+  height: 150px;
+  width: 200px;
+  background-color: rgba(255,255,255,0.5);
+  /* border: 1px solid grey; */
+  box-sizing: border-box;
+  display: inline-block;
+}
+.boxes img{
+  height: 150px;
+  width: 200px;
+}
+.boxes li {
+  height: 170px;
+	vertical-align: top;
+	box-sizing: border-box;
+	display: inline-block;
+  margin-bottom: 5px;
+}
+.boxes div{
+  vertical-align: top;
+}
+.boxes li div.word {
+  display: inline-block;
+	text-decoration: none;
+  width: 220px;
+  height: 150px;
+  /* border: 1px solid blue; */
+  box-sizing: border-box;
+  padding-left: 7px;
+  margin-right: 50px;
+  font-size: 18px;
+  color: gray;
+}
+.word h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: dimgray;
+}
+
+#sec3 {
+  background-color: whiteSmoke;
+  height:400px;
+}
+.div3 {
+  width: 700px;
+  height:400px;
+  margin: auto;
+  padding-top: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.div3 p {
+  font-size: 24px;
+  line-height: 150%;
+  margin-top: -10px;
+}
+
+footer {
+  height: 100px;
+  background-color: dimgray;
+  color: whiteSmoke;
+  box-sizing: border-box;
+}
+footer div{
+  padding-left: 240px;
+  padding-top: 45px;
+  font-size: 18px;
+  box-sizing: border-box;
+}

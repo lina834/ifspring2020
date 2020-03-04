@@ -1,0 +1,78 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Spartan', sans-serif; */
+
+h1, h2, h3, p, h5, p{
+	margin-top: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px;
+}
+.whole {
+  width: 100%;
+	height: 100%;
+	max-width: 600px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+#top {
+  position: relative;
+  background-image: url("../image/salad.jpeg");
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
+}
+#top .word {
+  display: block;
+  position: absolute;
+  bottom: 90px;
+  right: 60px;
+  color: whitesmoke;
+}
+.word h3 {
+  font-family: 'Vidaloka', serif;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-shadow: 2px 2px RGB(255, 255, 255, 0.4);
+}
+.word h3 #s{
+  color: SLATEGRAY;
+}
+.info {
+  padding-left: 120px;
+  margin-top: -20px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: SLATEGRAY;
+  line-height: 70%;
+}
+.info .num{
+  font-family: 'Vidaloka', serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+#bottom {
+  padding-top: 50px;
+  margin-left: 20px;
+}
+#bottom h3 {
+  font-family: 'Vidaloka', serif;
+  font-size: 27px;
+  text-shadow: 2px 2px RGB(176, 224, 230, 0.6);
+
+}
+
+.ingr {
+  text-decoration: none;
+  line-height: 1.6;
+   list-style-type: square;
+}
+
+ol {
+  line-height: 1.6;
+}

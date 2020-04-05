@@ -1,0 +1,114 @@
+/* font-family: 'Abril Fatface', cursive;
+font-family: 'Spartan', sans-serif; */
+
+h1, h2, h3, p, h5, p{
+	margin-top: 0;
+}
+body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 22px;
+}
+.whole {
+  width: 100%;
+	height: 100%;
+	max-width: 600px;
+	margin: auto;
+	padding-bottom: 20px;
+}
+
+#top {
+  position: relative;
+  background-image: url("../image/salad.jpeg");
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
+  margin-bottom: 20px;
+
+}
+#top .word {
+  /* display: block; */
+  /* position: absolute; */
+  /* top: 420px;
+  right: 30px; */
+  color: whitesmoke;
+}
+.word .title {
+  text-align: center;
+  padding-top: 420px;
+}
+.word h3 {
+  font-family: 'Vidaloka', serif;
+  letter-spacing: 2px;
+  font-size: 40px;
+  text-shadow: 2px 2px RGB(255, 255, 255, 0.4);
+}
+.word h3 #s{
+  color: grey;
+}
+.info {
+  padding-left: 10px;
+  margin-top: 10px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  color: lightgrey;
+  line-height: 70%;
+  /* margin-right: 100px; */
+}
+.info p {
+  margin-top: -5px;
+  margin-right: 100px;
+}
+.info .num{
+  font-family: 'Vidaloka', serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+#bottom {
+  margin-left: 10px;
+}
+#bottom h3 {
+  font-family: 'Vidaloka', serif;
+  font-size: 27px;
+  text-shadow: 2px 2px RGB(176, 224, 230, 0.6);
+}
+.about {
+  box-sizing: border-box;
+  /* padding-bottom: 5px; */
+  color: dimgray;
+  box-sizing: border-box;
+}
+
+.ingr {
+  text-decoration: none;
+  line-height: 1.6;
+  list-style-type: square;
+  padding-right: 25px;
+}
+#Ingredients {
+  padding-top: 15px;
+  padding-bottom: 35px;
+  box-sizing: border-box;
+}
+#Directions {
+  box-sizing: border-box;
+  padding-right: 30px;
+  padding-top: 35px;
+}
+#Directions li {
+  padding-bottom: 15px;
+}
+
+ol {
+  line-height: 1.6;
+}
+
+footer {
+  box-sizing: border-box;
+  padding-top: 40px;
+  font-family: sans-serif;
+  font-size: 15px;
+}

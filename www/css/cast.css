@@ -1,0 +1,129 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #101010;
+  min-width: 1330px;
+  font-family: 'Poppins', sans-serif;
+}
+/* @media (min-width: 1000px){
+ .text {
+    width: 65%;
+  }
+} */
+.container{
+  margin-top: 100px;
+}
+.container h1 {
+  color: #DCDCDC;
+  margin-left: 37%;
+  padding-bottom: 30px;
+  font-weight: 500;
+}
+.each {
+  height: 900px;
+  width: 100%;
+  padding-top: 30px;
+  border-bottom: 1px solid grey;
+}
+.container .each:first-of-type {
+  border-top: 1px solid grey;
+}
+.container img{
+  width: 300px;
+  height: auto;
+  display: block;
+  margin-top: 30px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 15px #303030;
+
+  /* box-shadow: 10px 10px 5px #303030; */
+}
+#Rachel img {
+  margin-bottom: 80px;
+  margin-top: 50px;
+}
+#Phoebe img {
+  margin-bottom: 70px;
+}
+#Chandler img{
+  margin-bottom: 80px;
+}
+#Ross img{
+  margin-bottom: 70px;
+}
+
+.container .img {
+  display: block;
+  padding-left: 50px;
+  float: left;
+  margin-left: auto;
+}
+.container .text {
+  float: right;
+  height: 800px;
+  width: 65%;
+  margin-top: 30px;
+  margin-right: 60px;
+  padding: 30px;
+  box-sizing: border-box;
+  box-shadow: 0 0 13px #303030;
+  /* box-shadow: 10px 10px 5px #303030; */
+  /* border: solid 1px grey; */
+}
+.text h2 {
+  color: #B0C4DE;
+  /* text-shadow: 2px 2px 4px #303030; */
+  margin-left: 20px;
+  font-weight: 500;
+
+}
+
+
+.dropdown {
+  display: inline-block;
+  color: lightgrey;
+}
+.dropdown .fa-bars{
+  position: absolute;
+  color: lightgrey;
+  top: 40px;
+  margin-left: 30px;
+}
+.dropdown-content {
+  /* display: none; */
+  /* visibility: hidden; */
+  position: absolute;
+  margin-top: 40px;
+  top: 40px;
+  margin-left: 30px;
+  background-color: PALEVIOLETRED;
+  opacity: 0;
+  min-width: 140px;
+  z-index: 1;
+  /* transition: 0.2s 1s; */
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.fa-bars:hover {
+  color: PALEVIOLETRED;
+}
+.fa-bars:hover ~ .dropdown-content {
+  display: block !important;
+  visibility: visible;
+  position: absolute;
+  opacity: 0.6;
+}
+.dropdown-content:hover {
+  /* visibility: visible; */
+  display: block !important;
+  position: absolute;
+  opacity: 0.6;
+  /* transition-delay: 0s; */
+}
+.dropdown-content a:hover {
+  background-color: whitesmoke; color: black;
+}

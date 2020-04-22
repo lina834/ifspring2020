@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Image Gallery">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="../css/img.css">
+    <title>image gallery</title>
+  </head>
+  <body>
+    <div class="myImg">
+
+      <img src="../image/img1-sm.jpg" alt="small img1" onclick="openImg(); openLg(1)">
+      <img src="../image/img2-sm.jpg" alt="small img2" onclick="openImg(); openLg(2)">
+      <img src="../image/img3-sm.jpg" alt="small img3" onclick="openImg(); openLg(3)">
+      <img src="../image/img6-sm.jpg" alt="small img4" onclick="openImg(); openLg(4)">
+      <img src="../image/img7-sm.jpg" alt="small img5" onclick="openImg(); openLg(5)">
+      <img src="../image/img9-sm.jpg" alt="small img6" onclick="openImg(); openLg(6)">
+      <img src="../image/img11-sm.jpg" alt="small img7" onclick="openImg(); openLg(7)">
+      <img src="../image/img13-sm.jpg" alt="small img8" onclick="openImg(); openLg(8)">
+      <img src="../image/img14-sm.jpg" alt="small img9" onclick="openImg(); openLg(9)">
+      <img src="../image/img15-sm.jpg" alt="small img10" onclick="openImg(); openLg(10)">
+      <img src="../image/img16-sm.jpg" alt="small img11" onclick="openImg(); openLg(11)">
+      <img src="../image/img17-sm.png" alt="small img12" onclick="openImg(); openLg(12)">
+
+    </div>
+
+
+    <div id="largeImg" class="closeView">
+
+      <span class = "close cursor" onclick="closeImg()">&times;</span>
+      <div class="closePics">
+
+        <div class="largerPics">
+          <img src="../image/img1-lg.jpg" alt="1">
+        </div>
+
+        <div class="largerPics">
+          <img src="../image/img2-lg.jpg" alt="2">
+        </div>
+
+        <div class="largerPics">
+          <img src="../image/img3-lg.jpg" alt="3">
+        </div>
+
+        <div class="largerPics">
+          <img src="../image/img6-lg.jpg" alt="4">
+        </div>
+
+        <div class="largerPics">
+          <img src="../image/img7-lg.jpg" alt="5">
+        </div>
+        <div class="largerPics">
+          <img src="../image/img9-lg.jpg" alt="6">
+        </div>
+        <div class="largerPics">
+          <img src="../image/img11-lg.jpg" alt="7">
+        </div>
+        <div class="largerPics">
+          <img src="../image/img13-lg.jpg" alt="8">
+        </div>
+        <div class="largerPics">
+          <img src="../image/img14-lg.jpg" alt="9">
+        </div>
+        <div class="largerPics">
+          <img src="../image/img15-lg.jpg" alt="10">
+        </div>
+        <div class="largerPics">
+          <img src="../image/img16-lg.jpg" alt="11">
+        </div>
+        <div class="largerPics">
+          <img src="../image/img17-lg.png" alt="12">
+        </div>
+
+        <a class="prev" onclick="nextPic(-1)">&#10094;</a>
+        <a class="next" onclick="nextPic(1)">&#10095;</a>
+
+      </div>
+    </div>
+
+
+
+    <div class="dropdown">
+      <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+      <div class="dropdown-content">
+        <a href="../index.html">HOME</a>
+        <a href="about.html">ABOUT</a>
+        <a href="cast.html">CAST</a>
+        <a href="img.html">IMAGE</a>
+        <a href="src.html">SOURCE</a>
+      </div>
+    </div>
+
+    <script>
+    function openImg() {
+      document.getElementById("largeImg").style.display = "block";
+    }
+    function closeImg() {
+      document.getElementById("largeImg").style.display = "none";
+    }
+
+    var index = 1;
+    popUp(index);
+
+    function nextPic(x) {
+      index = index +x;
+      popUp(index);
+    }
+
+    function openLg(x) {
+      index = x;
+      popUp(index);
+    }
+
+    function popUp(x) {
+      var lgPics = document.getElementsByClassName("largerPics");
+      if (x > lgPics.length) {index = 1}
+      if (x < 1) {index = lgPics.length}
+      for (var i = 0; i <= lgPics.length-1; i+=1) {
+        lgPics[i].style.display = "none";
+      }
+      lgPics[index-1].style.display = "block";
+    }
+    </script>
+  </body>
+</html>

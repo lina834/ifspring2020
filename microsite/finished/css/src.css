@@ -1,0 +1,97 @@
+body{
+  margin: 0;
+  padding: 0;
+  /* background-color: #101010; */
+  min-width: 700px;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1{
+  padding-top: 20px;
+  text-align: center;
+  font-weight: 600;
+  margin-left: 50px;
+}
+
+.container {
+  display: block;
+  position: absolute;
+  background-color: whitesmoke;
+  color: grey;
+  width: 90%;
+  margin-left: 5%;
+  height: 70%;
+  margin-top: 30px;
+  padding: 50px 55px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-weight: 500;
+}
+ul li{
+  display: block;
+  margin-bottom: 35px;
+  font-style: italic;
+  text-align: center;
+}
+ul a{
+  text-decoration: none;
+  color: dimgrey;
+}
+ul a:hover{
+  color: salmon;
+}
+
+
+
+
+
+.dropdown {
+  display: inline-block;
+  color: lightgrey;
+}
+.dropdown .fa-bars{
+  position: absolute;
+  color: lightgrey;
+  top: 40px;
+  margin-left: 30px;
+}
+.dropdown-content {
+  /* display: none; */
+  /* visibility: hidden; */
+  position: absolute;
+  margin-top: 40px;
+  top: 40px;
+  margin-left: 30px;
+  background-color: PALEVIOLETRED;
+  opacity: 0;
+  min-width: 140px;
+  z-index: 1;
+  /* transition: 0.2s 1s; */
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.fa-bars:hover {
+  color: PALEVIOLETRED;
+}
+.fa-bars:hover ~ .dropdown-content {
+  display: block !important;
+  visibility: visible;
+  position: absolute;
+  opacity: 0.8;
+}
+.dropdown-content:hover {
+  /* visibility: visible; */
+  display: block !important;
+  position: absolute;
+  opacity: 0.8;
+  /* transition-delay: 0s; */
+}
+.dropdown-content a:hover {
+  background-color: whitesmoke; color: black;
+}

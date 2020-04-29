@@ -1,0 +1,124 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-color: #DCDCDC;
+  min-width: 700px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container{
+  position: relative;
+}
+img {
+  position: relative;
+  width: 70%;
+  margin-left: 15%;
+  /* align-items: center; */
+}
+
+.textbox {
+  position: relative;
+  width: 68%;
+  height: auto;
+  border-top: solid 3px #101010;
+  border-bottom: solid 3px #101010;
+  padding: 30px 0;
+  color: #202020;
+  z-index: 1;
+  margin: 10px auto;
+}
+.textbox p {
+  line-height: 1.5;
+  font-size: 17px;
+}
+.textbox p em {
+  font-weight: bold;
+}
+.textbox h2 {
+  letter-spacing: 5px;
+  color: #556B2F;
+  font-weight: 600;
+}
+.textboxh2::after {
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.textbox strong {
+  color: OLIVE;
+  font-weight: 600;
+}
+
+.each {
+  opacity: 0.6;
+}
+.each#About {
+  opacity: 1;
+}
+.each:first-of-type{
+  margin-top: 100px;
+}
+.each:hover{
+  opacity: 1;
+}
+
+footer p {
+  margin-top: 100px;
+  margin-left: 5%;
+  color: #202020;
+}
+footer a{
+  text-decoration: none;
+  color: #6495ED;
+}
+footer a:visited {
+  color: purple;
+}
+
+.dropdown {
+  display: inline-block;
+  color: lightgrey;
+}
+.dropdown .fa-bars{
+  position: absolute;
+  color: lightgrey;
+  top: 40px;
+  margin-left: 30px;
+}
+.dropdown-content {
+  /* display: none; */
+  /* visibility: hidden; */
+  position: absolute;
+  margin-top: 40px;
+  top: 40px;
+  margin-left: 30px;
+  background-color: PALEVIOLETRED;
+  opacity: 0;
+  min-width: 140px;
+  z-index: 1;
+  /* transition: 0.2s 1s; */
+}
+.dropdown-content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.fa-bars:hover {
+  color: PALEVIOLETRED;
+}
+.fa-bars:hover ~ .dropdown-content {
+  display: block !important;
+  visibility: visible;
+  position: absolute;
+  opacity: 0.6;
+}
+.dropdown-content:hover {
+  /* visibility: visible; */
+  display: block !important;
+  position: absolute;
+  opacity: 0.6;
+  /* transition-delay: 0s; */
+}
+.dropdown-content a:hover {
+  background-color: whitesmoke; color: black;
+}
